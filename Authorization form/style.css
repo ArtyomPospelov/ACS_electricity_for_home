@@ -28,29 +28,27 @@ div.content{
 	transform: translate(-50%, -50%);
 	box-shadow: 0 0 20px;
 }
-div.headerContent{
-	padding:4px;
-}
 
 div.loginContent{
 	padding: 2px 10px 7px 10px;
 }
 
-p.headerContent{
-	margin: 5px 10px 5px 10px;
-	font-size: 14pt;
-	
-	text-align:center;
-}
-
 img.headerImg{
 	width:50px;
+	float:left;
+	margin: 7px 1px 10px 18px;
+}
+
+label{
+	float:right;
+	margin: 20px 20px 7px 0;
+	font-size:18px;
 }
 
 input{
 	margin-bottom:10px;
 	text-align:center;
-	font-size:12pt;
+	font-size:16px;
 	padding:4px;
 	border-radius:2px;
 	border:1px solid #1A6BBE;
@@ -64,16 +62,13 @@ button{
 	height: 30px;
 	width: 100px;
 	padding: 2px 0px 2px 0px;
-	vertical-align:middle;
 	background:#2185ED;
 	color:white;
+	text-align:left;
 }
 
 button img{
 	width:15px;
-	margin-right: 5px;
-}
-
-table{
-	margin:auto;
+	margin: 0px 10px 0px 15px;
+	float:left;
 }
